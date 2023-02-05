@@ -1,0 +1,188 @@
+{
+  "mod_elements": [
+    {
+      "name": "Soulerore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulerore"
+    },
+    {
+      "name": "Soulshard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulshard"
+    },
+    {
+      "name": "Soulemerald",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulemerald"
+    },
+    {
+      "name": "SoulemeraldRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulemerald_recipe"
+    },
+    {
+      "name": "Soulenderpearlitem",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulenderpearlitem"
+    },
+    {
+      "name": "SoulenderpearlProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulenderpearl_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soulenderpearl",
+      "type": "rangeditem",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulenderpearl"
+    },
+    {
+      "name": "SoulenderpearlRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulenderpearl_recipe"
+    },
+    {
+      "name": "Soulblazepowder",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulblazepowder"
+    },
+    {
+      "name": "Soulblazerod",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulblazerod"
+    },
+    {
+      "name": "Soulblazepowderrecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulblazepowderrecipe"
+    },
+    {
+      "name": "S",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "s",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Soulelytra",
+      "type": "armor",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soulelytra",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.soul_killer.s_boots": "S Boots",
+      "item.soul_killer.s_leggings": "S Leggings",
+      "item.soul_killer.soulelytra_chestplate": "Soul elytra",
+      "item.soul_killer.soulemerald": "Soul emerald",
+      "item.soul_killer.soulshard": "Soul shard",
+      "item.soul_killer.soulenderpearl": "Soul ender pearl",
+      "item.soul_killer.soulblazerod": "Soul blaze rod",
+      "item.soul_killer.s_helmet": "S Helmet",
+      "item.soul_killer.soulelytra_boots": "Soulelytra Boots",
+      "item.soul_killer.soulelytra_helmet": "Soulelytra Helmet",
+      "item.soul_killer.soulelytra_leggings": "Soulelytra Leggings",
+      "block.soul_killer.soulerore": "Souler ore",
+      "item.soul_killer.soulblazepowder": "Soul blaze powder",
+      "item.soul_killer.soulenderpearlitem": "Soul ender pearl item",
+      "item.soul_killer.s_chestplate": "S Body"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "soul_killer",
+    "modName": "Soul killer",
+    "version": "1.0.0",
+    "author": "Bruger, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.soulkiller",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

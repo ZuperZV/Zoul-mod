@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soulshard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soulshard"
+      },
+      {
+        "value": "Items.MUSIC_DISC_5"
+      },
+      {
+        "value": "CUSTOM:Soulshard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Soulshard"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Soulemerald"
+    },
+    "name": "soulemerald_recipe",
+    "namespace": "mod"
+  }
+}

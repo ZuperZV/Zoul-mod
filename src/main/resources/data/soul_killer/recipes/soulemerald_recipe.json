@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "soul_killer:soulshard"
+    },
+    "3": {
+      "item": "soul_killer:soulshard"
+    },
+    "4": {
+      "item": "minecraft:music_disc_5"
+    },
+    "5": {
+      "item": "soul_killer:soulshard"
+    },
+    "7": {
+      "item": "soul_killer:soulshard"
+    }
+  },
+  "result": {
+    "item": "soul_killer:soulemerald",
+    "count": 5
+  }
+}

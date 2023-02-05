@@ -1,0 +1,278 @@
+{
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    64,
+    32
+  ],
+  "elements": [
+    {
+      "name": "left",
+      "from": [
+        9,
+        5,
+        9
+      ],
+      "to": [
+        19,
+        25,
+        11
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          14,
+          20,
+          10
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            8.5,
+            1,
+            6,
+            11
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            1,
+            6,
+            11
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            9,
+            1,
+            11.5,
+            11
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            8.5,
+            1,
+            9,
+            11
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            8.5,
+            1,
+            6,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            11,
+            0,
+            8.5,
+            1
+          ],
+          "texture": "#0"
+        }
+      }
+    },
+    {
+      "name": "right",
+      "from": [
+        -2,
+        0,
+        9
+      ],
+      "to": [
+        8,
+        20,
+        11
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          16,
+          20,
+          10
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1,
+            8.5,
+            11
+          ],
+          "texture": "#0"
+        },
+        "east": {
+          "uv": [
+            9,
+            1,
+            8.5,
+            11
+          ],
+          "texture": "#0"
+        },
+        "south": {
+          "uv": [
+            11.5,
+            1,
+            9,
+            11
+          ],
+          "texture": "#0"
+        },
+        "west": {
+          "uv": [
+            6,
+            1,
+            5.5,
+            11
+          ],
+          "texture": "#0"
+        },
+        "up": {
+          "uv": [
+            6,
+            1,
+            8.5,
+            0
+          ],
+          "texture": "#0"
+        },
+        "down": {
+          "uv": [
+            8.5,
+            0,
+            11,
+            1
+          ],
+          "texture": "#0"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [
+        0.45,
+        0.43,
+        0.43
+      ]
+    },
+    "thirdperson_lefthand": {
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        2,
+        8,
+        0
+      ],
+      "translation": [
+        0.25,
+        -1,
+        1
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        6,
+        4,
+        0
+      ],
+      "translation": [
+        0.25,
+        0,
+        1.25
+      ],
+      "scale": [
+        0.45,
+        0.45,
+        0.45
+      ]
+    },
+    "gui": {
+      "translation": [
+        0,
+        -5.25,
+        0
+      ],
+      "scale": [
+        0.57,
+        0.58,
+        0.53
+      ]
+    },
+    "head": {
+      "rotation": [
+        -5,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -36.5,
+        2
+      ],
+      "scale": [
+        1.88,
+        1.83,
+        1.83
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        180,
+        0,
+        180
+      ],
+      "translation": [
+        0,
+        -6.5,
+        0
+      ],
+      "scale": [
+        0.74,
+        0.75,
+        0.74
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "wingsflying",
+      "origin": [
+        -20,
+        23,
+        3
+      ],
+      "color": 0,
+      "nbt": "{}",
+      "armAnimationEnabled": false,
+      "children": [
+        0,
+        1
+      ]
+    }
+  ]
+}

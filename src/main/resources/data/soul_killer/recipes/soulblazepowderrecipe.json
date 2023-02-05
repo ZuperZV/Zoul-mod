@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "soul_killer:soulblazerod"
+    }
+  ],
+  "result": {
+    "item": "soul_killer:soulblazepowder",
+    "count": 3
+  }
+}
