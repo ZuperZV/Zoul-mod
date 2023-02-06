@@ -54,6 +54,10 @@
             "type": "entity"
           },
           {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -131,7 +135,7 @@
       "type": "armor",
       "sortid": 12,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "soulelytra",
       "metadata": {
         "eh": false,
